@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My First JavaScript</h1>
+    <p>JavaScript can change the content of HTML element</p>
+    <button type="button" onclick="myFunction()">Click me</button>
+    <p id="simmeo">This is a demonstration</p>
+    <script>
+        function myFunction(){
+            document.getElementById("simmeo").innerHTML = "change text demo";
+            document.getElementById("simmeo").style.color = "red";
+            document.getElementById("simmeo").style.backgroundColor = "blue";
+        }
+    </script>
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+</body>
+</html>
